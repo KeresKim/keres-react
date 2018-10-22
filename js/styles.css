@@ -1,0 +1,139 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+
+.app__1OdWJ {
+  height: 100vh;
+  width: 100vw;
+}
+.movies__3CjVk {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  overflow-y: auto;
+  background-color: black;
+}
+
+.list__2rQEg {
+  width: 100%;
+}
+
+.listHidden__3DPQR {
+  display: none;
+}
+
+.movie__1F_3s {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  height: 320px;
+  width: 240px;
+  margin: 10px auto;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 667px) {
+  .movies__3CjVk {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  .list__2rQEg, .listHidden__3DPQR {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .movie__1F_3s {
+    margin: 10px;
+  }
+}
+.movie__bmgm4 {
+  padding: 10px;
+  color: white;
+  height: 320px;
+  margin: 10px auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.table__31XMi {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.cover__1HGAd {
+  justify-content: center;
+  height: 320px;
+  width: 240px;
+  margin: 10px auto;
+  background-position: center center;  
+}
+
+.description__KKcLN {
+  width: 100%;
+  margin: 10px;
+}
+
+.title__3TOAK {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.15;
+  color: rgba(255, 255, 255, 0.825);
+}
+
+.year__2zuSK {
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.565;
+  color: rgba(255, 255, 255, 0.325);
+}
+
+.starring__3CRBP {
+  margin: 20px 0 0;
+}
+
+.actor__2nYOC {
+  margin: 10px 0 0;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.closeButton__1tyMq {
+  display: block;
+  padding: 10px 25px 10px 35px;
+  font-size: 20px;
+  line-height: 2.45;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+@media (min-width: 667px) {
+  .movie__bmgm4 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-height: 100%;
+    min-width: 667px;
+    overflow-y: auto;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map*/

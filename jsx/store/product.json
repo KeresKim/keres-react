@@ -1,0 +1,32 @@
+[
+  { "id": 0 , 
+    "src": "jsx/store/images/apple_notebook.jpg", 
+    "title": "APPLE Macbook Pro 2018 Brand New MR942KH", 
+    "description" : "Exceptional difference! Sharply Incresed performance and functions.2018 Macbook Pro",
+    "cost": 296
+  },  
+  { "id": 1, 
+    "src": "jsx/store/images/lg_gram.jpg", 
+    "title": "LG Electronics 2018 Gram 15ZD980-GX50K",
+    "description": "Expandability and Strong durability, large-capacity battery! 2018 LG All New Gram", 
+    "cost": 148
+  },
+  { "id": 2, 
+    "src": "jsx/store/images/msi_notebook.jpg", 
+    "title": "MSI GP Series GP63 Leopard 8RE", 
+    "description":"6-Core CPU and Great performance optimizing into game convergence",
+    "cost": 124
+  },
+  { "id": 3, 
+    "src": "jsx/store/images/asus_notebook.jpg", 
+    "title": "ASUS Vivo-notebook S510UN-BQ083", 
+    "description":"Intel 8 Generation Quad-Core CPU and Geforce Graphic Process mixing with Game",
+    "cost": 82
+  },
+  { "id": 4, 
+    "src": "jsx/store/images/samsung_notebook.jpg", 
+    "title": "2018 Notebook9 Always NT900X5V-GD5A",
+    "description":"Implemented Geforce and large-capacity battery! Intel 8 Generation",
+    "cost": 137
+  }
+]

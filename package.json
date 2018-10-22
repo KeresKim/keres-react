@@ -1,0 +1,55 @@
+{
+  "name": "keres_node_server",
+  "version": "1.0.0",
+  "description": "node server with express, mongo db n webserver",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_server.js",
+    "clock-build": "./node_modules/.bin/babel ./jsx_clock -d ./js",
+    "build": "./node_modules/.bin/webpack",
+    "i": "rm -rf ./node_modules && npm cache clean && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/keres-react.git"
+  },
+  "author": "keres kim",
+  "license": "MIT",
+  "engines": {
+    "node": "8.11.4"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "6.9.0",
+    "babel-core": "6.11.4",
+    "babel-loader": "6.2.4",
+    "babel-preset-react": "6.5.0",
+    "babel-preset-es2015": "6.9.0",
+    "babel-polyfill": "6.9.1",
+    "babel-preset-stage-0": "6.5.0",
+    "css-loader": "0.23.1",
+    "style-loader": "0.13.1",
+    "history": "2.1.2",
+    "extract-text-webpack-plugin": "1.0.1",
+    "react": "15.2.1",
+    "react-dom": "15.2.1",
+    "react-redux": "4.4.5",
+    "react-router": "2.6.0",
+    "json-loader": "0.5.4",
+    "redux": "3.5.2",
+    "redux-actions": "0.10.1",
+    "mime": "^2.3.1",
+    "express": "^4.4.2",
+    "axios": "0.13.1",
+    "mongodb": "2.2.25",
+    "body-parser": "1.13.2",
+    "compression": "1.5.1",
+    "express-validator": "2.13.0",
+    "webpack": "1.13.1"
+  }
+}
